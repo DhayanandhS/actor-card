@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for actors...">
+    </div>
+    <div class="card-container" id="card-container">
+        <div class="card" data-name="Fahadh Faasil">
+            <div class="card-image" style="background-image: url('./images/actor1.jpg');"></div>
+            <div class="card-gradient">
+                <div class="card-text">Fahadh Faasil</div>
+            </div>
+            <a href="https://letterboxd.com/your-profile" class="profile-link" target="_blank">
+                <span class="icon">i</span>
+                <span class="tooltip">Letterboxd Profile</span>
+            </a>
+        </div>
+        <div class="card" data-name="Kamal Haasan">
+            <div class="card-image" style="background-image: url('./images/actor3.jpg');"></div>
+            <div class="card-gradient">
+                <div class="card-text">Kamal Haasan</div>
+            </div>
+            <a href="https://letterboxd.com/your-profile" class="profile-link" target="_blank">
+                <span class="icon">i</span>
+                <span class="tooltip">Letterboxd Profile</span>
+            </a>
+        </div>
+        <div class="card" data-name="Vijay Sethupathi">
+            <div class="card-image" style="background-image: url('./images/actor2.jpg');"></div>
+            <div class="card-gradient">
+                <div class="card-text">Vijay Sethupathi</div>
+            </div>
+            <a href="https://letterboxd.com/your-profile" class="profile-link" target="_blank">
+                <span class="icon">i</span>
+                <span class="tooltip">Letterboxd Profile</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
